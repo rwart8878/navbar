@@ -1,6 +1,5 @@
 import React from 'react'
 import Video from '../../video/mp4'
-import {HEroCo}
 
 const HeroSection = () => {
   return (
