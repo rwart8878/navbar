@@ -1,15 +1,16 @@
 import React from 'react'
-import Video from '../../video/mp4'
+import Video from "../../component/Video/video.mp4"
+import { HeroContainer,HeroBg,VideoBg } from './HeroElements';
 
 const HeroSection = () => {
   return (
-    <HeroSection>
+    <HeroContainer>
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
-    </HeroSection>
+    </HeroContainer>
     
   )
 };
 
-export default HeroSection
+export default HeroSection 
